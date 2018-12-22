@@ -1,50 +1,19 @@
-package application.Model;
+package Model;
 
-import javafx.collections.FXCollections;
-import javafx.collections.ObservableList;
 import org.json.JSONException;
-import org.json.JSONObject;
 import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 import java.util.Objects;
 
-public class Tree{
-    private String type;
-    private Map<String, String[]> steps;
+public class Tree {
 
-    public Tree(String type)
-    {
-        this.type = type;
-        Construction();
-    }
-
-    public void Search(){
-
-    }
-    private void Construction() {
-        switch (type){
-            case "Computer":
-                ComputerTreeConstruction();
-                break;
-            case "Cellphone":
-                break;
-            case "Earphone":
-                break;
-        }
-    }
-
-    private void ComputerTreeConstruction(){
-        Node root = new Node(ReaderFileJson(""));
-        //Quel est l’usage que vous allez faire de votre ordinateur ?
-        steps.put("PC or Mac", new String[]{"PC", "Mac"});
-
-        steps.put("Usage", new String[]{"Bureautic", "Polyvalent", "Gamer"});
+    public Tree(){
 
     }
 
@@ -91,5 +60,4 @@ public class Tree{
         // TODO Read each items of the Json File
         return item;
     }
-
 }

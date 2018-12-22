@@ -1,4 +1,4 @@
-package application.Model;
+package Model;
 
 public class Earphone {
 
