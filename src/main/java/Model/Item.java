@@ -10,4 +10,9 @@ public abstract class Item {
         this.brand = brand;
         this.price = price;
     }
+
+    @Override
+    public String toString() {
+        return this.getClass().getSimpleName() + " : " + name;
+    }
 }

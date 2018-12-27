@@ -1,0 +1,254 @@
+{
+  "Ordinateur":[
+    {
+      "name": "MacBook Air",
+      "marque": "Apple",
+      "processeur": "CORE I5",
+      "ram": "8",
+      "stockage": "128Go",
+      "taille_ecran": "13.3",
+      "poids": "1350",
+      "prix": "999.99",
+      "carte graphique": "Intel HD Graphics 4000"
+    },
+    {
+      "name": "MacBook Pro",
+      "marque": "Apple",
+      "processeur": "CORE I5",
+      "ram": "8",
+      "stockage": "256Go",
+      "taille_ecran": "13.3",
+      "poids": "1370",
+      "prix": "1999.99",
+      "carte graphique": "Intel Iris Graphics 6100"
+    },
+    {
+      "name": "Hybride",
+      "marque": "Microsoft",
+      "processeur": "Intel Pentium Gold 4415Y",
+      "ram": "8",
+      "stockage": "128Go",
+      "taille_ecran": "10",
+      "poids": "522",
+      "prix": "599.99",
+      "carte graphique": "Intel Graphics HD 4400"
+    },
+    {
+      "name": "IdeaPad S130-14IGM 81 J2008GFR 14",
+      "marque": "Lenovo",
+      "processeur": "Intel Pentium",
+        "ram": "4",
+        "stockage": "128Go",
+        "taille_ecran": "14",
+        "poids": "1470",
+        "prix": "368.99",
+        "carte graphique": "Intel UHD GRAPHICS 600"
+      },
+      {
+        "name": "ZenBook 13",
+        "marque": "Asus",
+        "processeur": "Intel Core I5",
+        "ram": "8",
+        "stockage": "512 Go",
+        "taille_ecran": "13.3",
+        "poids": "1090",
+        "prix": "809.99",
+        "carte graphique": "NVIDIA Geforce MX150"
+      },
+      {
+        "name": "ZenBook UX433FN-A6014T 14",
+        "marque": "Asus",
+        "processeur": "Intel Core I7",
+        "ram": "16",
+        "stockage": "512 Go",
+        "taille_ecran": "14",
+        "poids": "1190",
+        "prix": "1399.99",
+        "carte graphique": "Intel UHD 620"
+      },
+      {
+        "name": "Chromebook Asus C423NA-BZ0038 14",
+        "marque": "Asus",
+        "processeur": "Intel Pentium N4200",
+        "ram": "4",
+        "stockage": "64 Go",
+        "taille_ecran": "14",
+        "poids": "1400",
+        "prix": "319.99",
+        "carte graphique": "Intel HD Graphics"
+      },
+      {
+        "name": "Asus Predator Helios 300 PH315-51-58KC NH.Q3HEF.001 15.6",
+        "marque": "Acer",
+        "processeur": "Intel core I5",
+        "ram": "8",
+        "stockage": "32Go",
+        "taille_ecran": "15.6",
+        "poids": "2700",
+        "prix": "999.99",
+        "carte graphique": "Nvidia GTX 1050 Ti"
+      },
+      {
+        "name": "Asus Predator Helios 300 PH315-51-58KC NH.Q3HEF.001 15.6",
+        "marque": "Acer",
+        "processeur": "Intel core I5",
+        "ram": "8",
+        "stockage": "1 To",
+        "taille_ecran": "15.6",
+        "poids": "2700",
+        "prix": "999.99",
+        "carte graphique": "NVIDIA GeForce GTX 1050T"
+      },
+      {
+        "name": "GF63 8RC6288FR 15.6",
+        "marque": "MSI",
+        "processeur": "Intel core I5",
+        "ram": "32",
+        "stockage": "1 To",
+        "taille_ecran": "15.6",
+        "poids": "1860",
+        "prix": "799.99",
+        "carte graphique": "GeForce® GTX 1050"
+      },
+      {
+        "name": "IDEAPAD 330S-15ARR 81FB007EFR",
+        "marque": "LENOVO ",
+        "processeur": "Intel core I5",
+        "ram": "8",
+        "stockage": "1000 Go",
+        "taille_ecran": "15.6",
+        "poids": "1800",
+        "prix": "599.00",
+        "carte graphique": "AMD Radeon Vega 8"
+      }
+  ],
+   "Telephone":[
+     {
+       "name": "iphoneX",
+       "marque": "apple",
+       "taille": "5.8",
+       "memoire": "32",
+       "prix": "700"
+     },
+     {
+       "name": "S5",
+       "marque": "samsung",
+       "taille": "5.1",
+       "memoire": "16",
+       "prix": "177.99"
+     },
+     {
+       "name": "S8",
+       "marque": "Leagoo",
+       "taille": "5.7",
+       "memoire": "32",
+       "prix": "136.99"
+     },
+     {
+       "name": "P20 Lite",
+       "marque": "Huawei",
+       "taille": "5.84",
+       "memoire": "64",
+       "prix": "244.99"
+     },
+     {
+       "name": "XZ Premium",
+       "marque": "Ony Xperia",
+       "taille": "5.5",
+       "memoire": "64",
+       "prix": "285.00"
+     },
+     {
+       "name": "Glaxy J3",
+       "marque": "Samsung",
+       "taille": "5",
+       "memoire": "16",
+       "prix": "133.49"
+     },
+     {
+       "name": "Y5 2018",
+       "marque": "Huwaei",
+       "taille": "5.45",
+       "memoire": "16",
+       "prix": "119.00"
+     },
+     {
+       "name": "Mate lite",
+       "marque": "Huawei",
+       "taille": "5.9",
+       "memoire": "64",
+       "prix": "205.50"
+     },
+     {
+       "name": "Galaxy J5",
+       "marque": "samsung",
+       "taille": "5.2",
+       "memoire": "16",
+       "prix": "163.88"
+     },
+     {
+       "name": "iphone 8 Plus",
+       "marque": "apple",
+       "taille": "5.5",
+       "memoire": "256",
+       "prix": "926.97"
+     },
+     {
+       "name": "iphoneXr",
+       "marque": "apple",
+       "taille": "6.1",
+       "memoire": "64",
+       "prix": "819"
+     },
+     {
+       "name": "iphoneX",
+       "marque": "apple",
+       "taille": "5.8",
+       "memoire": "32",
+       "prix": "700"
+     },
+     {
+       "name": "iphoneXS Max",
+       "marque": "apple",
+       "taille": "6.5",
+       "memoire": "64",
+       "prix": "1133.90"
+     },
+     {
+       "name": "iphoneX",
+       "marque": "apple",
+       "taille": "5.8",
+       "memoire": "32",
+       "prix": "700"
+     },
+     {
+       "name": "iphone6s",
+       "marque": "apple",
+       "taille": "4.7",
+       "memoire": "32",
+       "prix": "337"
+     },
+     {
+       "name": "Xperia XA2",
+       "marque": "Sony",
+       "taille": "5.2",
+       "memoire": "32",
+       "prix": "2179.00"
+     },
+     {
+       "name": "Xperia XZ Premium",
+       "marque": "Sony",
+       "taille": "5.5",
+       "memoire": "64",
+       "prix": "285.00"
+     },
+     {
+       "name": "Xperia L1",
+       "marque": "Sony",
+       "taille": "5.5",
+       "memoire": "16",
+       "prix": "167.96"
+     }
+   ]
+}
+         
