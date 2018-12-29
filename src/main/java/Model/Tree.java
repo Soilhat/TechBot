@@ -12,20 +12,62 @@ import java.util.List;
 import java.util.Objects;
 
 public class Tree {
+    private Node computerRoot;
+    private Node cellphoneRoot;
 
     public Tree(){
-        Node computerRoot = new Node(ReaderFileJson("data.json", "Ordinateur"));
-        computerRoot.PrintNode();
-        Node cellphoneRoot = new Node(ReaderFileJson("data.json", "Telephone"));
-        cellphoneRoot.PrintNode();
+        computerRoot = new Node(ReaderFileJson("Ordinateur"), "Computer");
+        cellphoneRoot = new Node(ReaderFileJson("Telephone"), "Cellphone");
+        ComputerConstruction();
     }
 
-    private List<Item> ReaderFileJson(String fileName, String type) {
+    private void ComputerConstruction() {
+        Node officeNode = new Node(OfficeComputers(computerRoot.getPossibilities()), "Office");
+        computerRoot.NewChild(officeNode);
+        Node polyvalentNode = new Node(PolyvalentComputers(computerRoot.getPossibilities()), "Polyvalent");
+        computerRoot.NewChild(polyvalentNode);
+        Node gamerNode = new Node(GamerComputers(computerRoot.getPossibilities()), "Gamer");
+        computerRoot.NewChild(gamerNode);
+    }
+
+    private List<Item> GamerComputers(List<Item> tab){
+        List<Item> retour = new ArrayList<>();
+        for(Item computer : tab){
+            Computer comp = (Computer) computer;
+            if(comp.processor.contains("i5") || comp.processor.contains("i7"))
+                if(comp.RAM  >= 8)
+                    if(comp.GPU.contains("GeForce GTX"))
+                        retour.add(computer);
+        }
+        return retour;
+    }
+
+    private List<Item> PolyvalentComputers(List<Item> tab){
+        List<Item> retour = new ArrayList<>();
+        for(Item computer : tab){
+            Computer comp = (Computer) computer;
+            if(comp.processor.contains("i5") || comp.processor.contains("i7"))
+                if(comp.RAM == 4 || comp.RAM  == 8)
+                    retour.add(computer);
+        }
+        return retour;
+    }
+
+    private List<Item> OfficeComputers(List<Item> tab){
+        List<Item> retour = new ArrayList<>();
+        for(Item computer : tab){
+            if(((Computer)computer).processor.contains("Pentium") && ((Computer)computer).RAM == 4)
+                retour.add(computer);
+        }
+        return retour;
+    }
+
+    private List<Item> ReaderFileJson( String type) {
         JSONParser jsonParser = new JSONParser();
         List<Item> itemStorage = new ArrayList<>();
         try {
             ClassLoader classLoader = getClass().getClassLoader();
-            FileReader reader = new FileReader(Objects.requireNonNull(classLoader.getResource(fileName)).getFile());
+            FileReader reader = new FileReader(Objects.requireNonNull(classLoader.getResource("data.json")).getFile());
             Object obj = jsonParser.parse(reader);
             JSONArray productList = (JSONArray) ((JSONObject)obj).get(type);
             for (Object product : productList) {
@@ -67,7 +109,4 @@ public class Tree {
         }
         return item;
     }
-
-
-
 }
