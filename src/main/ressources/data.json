@@ -1,5 +1,5 @@
 {
-  "Ordinateur":[
+  "Ordinateur": [
     {
       "name": "MacBook Air",
       "marque": "Apple",
@@ -37,217 +37,884 @@
       "name": "IdeaPad S130-14IGM 81 J2008GFR 14",
       "marque": "Lenovo",
       "processeur": "Intel Pentium",
-        "ram": "4",
-        "stockage": "128Go",
-        "taille_ecran": "14",
-        "poids": "1470",
-        "prix": "368.99",
-        "carte graphique": "Intel UHD GRAPHICS 600"
-      },
-      {
-        "name": "ZenBook 13",
-        "marque": "Asus",
-        "processeur": "Intel Core I5",
-        "ram": "8",
-        "stockage": "512 Go",
-        "taille_ecran": "13.3",
-        "poids": "1090",
-        "prix": "809.99",
-        "carte graphique": "NVIDIA Geforce MX150"
-      },
-      {
-        "name": "ZenBook UX433FN-A6014T 14",
-        "marque": "Asus",
-        "processeur": "Intel Core I7",
-        "ram": "16",
-        "stockage": "512 Go",
-        "taille_ecran": "14",
-        "poids": "1190",
-        "prix": "1399.99",
-        "carte graphique": "Intel UHD 620"
-      },
-      {
-        "name": "Chromebook Asus C423NA-BZ0038 14",
-        "marque": "Asus",
-        "processeur": "Intel Pentium N4200",
-        "ram": "4",
-        "stockage": "64 Go",
-        "taille_ecran": "14",
-        "poids": "1400",
-        "prix": "319.99",
-        "carte graphique": "Intel HD Graphics"
-      },
-      {
-        "name": "Asus Predator Helios 300 PH315-51-58KC NH.Q3HEF.001 15.6",
-        "marque": "Acer",
-        "processeur": "Intel core I5",
-        "ram": "8",
-        "stockage": "32Go",
-        "taille_ecran": "15.6",
-        "poids": "2700",
-        "prix": "999.99",
-        "carte graphique": "Nvidia GTX 1050 Ti"
-      },
-      {
-        "name": "Asus Predator Helios 300 PH315-51-58KC NH.Q3HEF.001 15.6",
-        "marque": "Acer",
-        "processeur": "Intel core I5",
-        "ram": "8",
-        "stockage": "1 To",
-        "taille_ecran": "15.6",
-        "poids": "2700",
-        "prix": "999.99",
-        "carte graphique": "NVIDIA GeForce GTX 1050T"
-      },
-      {
-        "name": "GF63 8RC6288FR 15.6",
-        "marque": "MSI",
-        "processeur": "Intel core I5",
-        "ram": "32",
-        "stockage": "1 To",
-        "taille_ecran": "15.6",
-        "poids": "1860",
-        "prix": "799.99",
-        "carte graphique": "GeForce® GTX 1050"
-      },
-      {
-        "name": "IDEAPAD 330S-15ARR 81FB007EFR",
-        "marque": "LENOVO ",
-        "processeur": "Intel core I5",
-        "ram": "8",
-        "stockage": "1000 Go",
-        "taille_ecran": "15.6",
-        "poids": "1800",
-        "prix": "599.00",
-        "carte graphique": "AMD Radeon Vega 8"
-      }
+      "ram": "4",
+      "stockage": "128Go",
+      "taille_ecran": "14",
+      "poids": "1470",
+      "prix": "368.99",
+      "carte graphique": "Intel UHD GRAPHICS 600"
+    },
+    {
+      "name": "ZenBook 13",
+      "marque": "Asus",
+      "processeur": "Intel Core I5",
+      "ram": "8",
+      "stockage": "512 Go",
+      "taille_ecran": "13.3",
+      "poids": "1090",
+      "prix": "809.99",
+      "carte graphique": "NVIDIA Geforce MX150"
+    },
+    {
+      "name": "ZenBook UX433FN-A6014T 14",
+      "marque": "Asus",
+      "processeur": "Intel Core I7",
+      "ram": "16",
+      "stockage": "512 Go",
+      "taille_ecran": "14",
+      "poids": "1190",
+      "prix": "1399.99",
+      "carte graphique": "Intel UHD 620"
+    },
+    {
+      "name": "Chromebook Asus C423NA-BZ0038 14",
+      "marque": "Asus",
+      "processeur": "Intel Pentium N4200",
+      "ram": "4",
+      "stockage": "64 Go",
+      "taille_ecran": "14",
+      "poids": "1400",
+      "prix": "319.99",
+      "carte graphique": "Intel HD Graphics"
+    },
+    {
+      "name": "Asus Predator Helios 300 PH315-51-58KC NH.Q3HEF.001 15.6",
+      "marque": "Acer",
+      "processeur": "Intel core I5",
+      "ram": "8",
+      "stockage": "32Go",
+      "taille_ecran": "15.6",
+      "poids": "2700",
+      "prix": "999.99",
+      "carte graphique": "Nvidia GTX 1050 Ti"
+    },
+    {
+      "name": "GF63 8RC6288FR 15.6",
+      "marque": "MSI",
+      "processeur": "Intel core I5",
+      "ram": "32",
+      "stockage": "1 To",
+      "taille_ecran": "15.6",
+      "poids": "1860",
+      "prix": "799.99",
+      "carte graphique": "GeForce® GTX 1050"
+    },
+    {
+      "name": "Aspire S 13 S5-371T-52YV",
+      "marque": "Acer",
+      "processeur": "Intel core I5",
+      "ram": "4",
+      "stockage": "128Go",
+      "taille_ecran": "33.8",
+      "poids": "1360",
+      "prix": "739.99",
+      "carte graphique": "Intel HD Graphics 520"
+    },
+    {
+      "name": "ROG Strix Scar II GL704",
+      "marque": "Asus",
+      "processeur": "Intel core I7",
+      "ram": "16",
+      "stockage": "256Go",
+      "taille_ecran": "17.3",
+      "poids": "1360",
+      "prix": "1399",
+      "carte graphique": "Nvidia GeForce GTX 1060"
+    },
+    {
+      "name": "PC Portable THN14N120",
+      "marque": "Thomson",
+      "processeur": "Intel Atom Z3735",
+      "ram": "2",
+      "stockage": "32Go",
+      "taille_ecran": "14.1",
+      "poids": "1366",
+      "prix": "159.99",
+      "carte graphique": "Intel HD Graphics"
+    },
+    {
+      "name": "Ultrabook ZenBook",
+      "marque": "Asus",
+      "processeur": "Intel Core I7",
+      "ram": "8",
+      "stockage": "256Go",
+      "taille_ecran": "14",
+      "poids": "1300",
+      "prix": "799.99",
+      "carte graphique": "Intel UHD Graphics 620"
+    },
+    {
+      "name": "PC Ultrabook Pavillon",
+      "marque": "HP",
+      "processeur": "Intel core I7",
+      "ram": "8",
+      "stockage": "256Go",
+      "taille_ecran": "13.3",
+      "poids": "1436",
+      "prix": "766.99",
+      "carte graphique": "Intel UHD Graphics 620"
+    },
+    {
+      "name": "ASUS FX570ZD",
+      "marque": "Asus",
+      "processeur": "Intel core I7",
+      "ram": "16",
+      "stockage": "128Go",
+      "taille_ecran": "15.6",
+      "poids": "1920",
+      "prix": "649.99",
+      "carte graphique": "Nvidia GeForce GTX 1050"
+    },
+    {
+      "name": "X540LA-XX1303T",
+      "marque": "Asus",
+      "processeur": "Intel core I3",
+      "ram": "4",
+      "stockage": "126Go",
+      "taille_ecran": "15.6",
+      "poids": "1366",
+      "prix": "369.99",
+      "carte graphique": "Intel HD Graphics 5500"
+    },
+    {
+      "name": "MSI GL63 8RD",
+      "marque": "MSI",
+      "processeur": "Intel core I5",
+      "ram": "8",
+      "stockage": "1To",
+      "taille_ecran": "15.6",
+      "poids": "1920",
+      "prix": "699.99",
+      "carte graphique": "Nvidia GeForce GTX 1050 Ti"
+    },
+    {
+      "name": "Ultrabook Zenbook",
+      "marque": "Asus",
+      "processeur": "Intel core I7",
+      "ram": "8",
+      "stockage": "512 Go",
+      "taille_ecran": "14",
+      "poids": "1080",
+      "prix": "1249.00",
+      "carte graphique": "Nvidia GeForce MX150"
+    },
+    {
+      "name": "Ideapad 330",
+      "marque": "Lenovo",
+      "processeur": "Intel core I3",
+      "ram": "6",
+      "stockage": "128 Go",
+      "taille_ecran": "15.6",
+      "poids": "1080",
+      "prix": "499.99",
+      "carte graphique": "AMD radeon RX vega 8"
+    },
+    {
+      "name": "Gamer Omen 15-ce027nf",
+      "marque": "HP",
+      "processeur": "Intel core I5",
+      "ram": "8",
+      "stockage": "1To",
+      "taille_ecran": "15.6",
+      "poids": "1760",
+      "prix": "899.99",
+      "carte graphique": "Nvidia GeForce GTX 1060"
+    },
+    {
+      "name": "Legion Y520",
+      "marque": "Acer",
+      "processeur": "Intel core I5",
+      "ram": "8",
+      "stockage": "1To",
+      "taille_ecran": "15.6",
+      "poids": "2360",
+      "prix": "879.99",
+      "carte graphique": "Nvidia GeForce GTX 1060"
+    },
+    {
+      "name": "Asus FX753VD",
+      "marque": "Asus",
+      "processeur": "Intel core I5",
+      "ram": "8",
+      "stockage": "128Go",
+      "taille_ecran": "17,3",
+      "poids": "1760",
+      "prix": "799,99",
+      "carte graphique": "Nvidia GeForce GTX 1050"
+    },
+    {
+      "name": "Pavillon 17ab313nf",
+      "marque": "HP",
+      "processeur": "Intel core I5",
+      "ram": "8",
+      "stockage": "128Go",
+      "taille_ecran": "17,3",
+      "poids": "2130",
+      "prix": "700,99",
+      "carte graphique": "Nvidia GeForce GTX 1050"
+    },
+    {
+      "name": "Portable Inspiron 13-7370",
+      "marque": "DELL",
+      "processeur": "Intel core I7",
+      "ram": "16",
+      "stockage": "512Go",
+      "taille_ecran": "13,3",
+      "poids": "1080",
+      "prix": "899,99",
+      "carte graphique": "Nvidia GeForce GTX 620"
+    },
+    {
+      "name": "TUF554GE-E4539",
+      "marque": "Asus",
+      "processeur": "Intel core I5",
+      "ram": "16",
+      "stockage": "256Go",
+      "taille_ecran": "15,6",
+      "poids": "3540",
+      "prix": "799,99",
+      "carte graphique": "Nvidia GeForce GTX 1060"
+    },
+    {
+      "name": "Mac Book Pro",
+      "marque": "Apple",
+      "processeur": "Intel core I5",
+      "ram": "8Go",
+      "stockage": "128Go",
+      "taille_ecran": "13,3",
+      "poids": "1360",
+      "prix": "1299,99",
+      "carte graphique": "Intel Iris Graphics 640"
+    },
+    {
+      "name": "Mac Book Pro 15",
+      "marque": "Apple",
+      "processeur": "Intel core I7",
+      "ram": "4",
+      "stockage": "256Go",
+      "taille_ecran": "15,4",
+      "poids": "1440",
+      "prix": "775,99",
+      "carte graphique": "NVIDIA GeForec GT 650M Intel HD"
+    },
+    {
+      "name": "Macbook Pro 15",
+      "marque": "Apple",
+      "processeur": "Intel core I2",
+      "ram": "8Go",
+      "stockage": "128Go",
+      "taille_ecran": "15,4",
+      "poids": "1560",
+      "prix": "629,99",
+      "carte graphique": "NVIDIA GeForec GT 650M Intel HD"
+    },
+    {
+      "name": "ROG Strix Scar II GL704",
+      "marque": "Asus",
+      "processeur": "Intel core I7",
+      "ram": "16",
+      "stockage": "256Go",
+      "taille_ecran": "17,3",
+      "poids": "1360",
+      "prix": "1399",
+      "carte graphique": "Nvidia GeForce GTX 1060"
+    },
+    {
+      "name": "Ordinateur Portable Convertible ",
+      "marque": "Asus",
+      "processeur": "Intel Pentium N4200",
+      "ram": "4Go",
+      "stockage": "128Go",
+      "taille_ecran": "14",
+      "poids": "1366",
+      "prix": "399,99",
+      "carte graphique": "Intel HD Graphics 505"
+    },
+    {
+      "name": "Gamer Omen 17-an115nf",
+      "marque": "hp",
+      "processeur": "Intel core I5",
+      "ram": "8",
+      "stockage": "128Go",
+      "taille_ecran": "17,3",
+      "poids": "1360",
+      "prix": "999,99",
+      "carte graphique": "Nvidia GeForce GTX 1050"
+    },
+    {
+      "name": "Alienware 15 R4 FHD",
+      "marque": "Dell",
+      "processeur": "Intel core I7",
+      "ram": "16",
+      "stockage": "256Go",
+      "taille_ecran": "15,54",
+      "poids": "1650",
+      "prix": "1689,99",
+      "carte graphique": "Nvidia GeForce GTX 1060"
+    },
+    {
+      "name": "GL 504 GS-ES 064 T",
+      "marque": "Asus",
+      "processeur": "Intel core I7",
+      "ram": "16",
+      "stockage": "256Go",
+      "taille_ecran": "15,6",
+      "poids": "1760",
+      "prix": "1897,60",
+      "carte graphique": "Nvidia GeForce GTX 1070"
+    },
+    {
+      "name": "Ultraportable Spectre x360 - HP13ae003nf",
+      "marque": "hp",
+      "processeur": "Intel core I7",
+      "ram": "16",
+      "stockage": "512Go",
+      "taille_ecran": "13,3",
+      "poids": "1920",
+      "prix": "1619,99",
+      "carte graphique": "Intel UHD Graphics 620"
+    },
+    {
+      "name": "Vivobook S410UN-EB116T",
+      "marque": "Asus",
+      "processeur": "Intel core I7",
+      "ram": "12",
+      "stockage": "128Go",
+      "taille_ecran": "14",
+      "poids": "1920",
+      "prix": "969,99",
+      "carte graphique": "Nvidia GeForce MX 150"
+    },
+    {
+      "name": "SCAR",
+      "marque": "Asus",
+      "processeur": "Intel core I7",
+      "ram": "16",
+      "stockage": "1To",
+      "taille_ecran": "17,3",
+      "poids": "1760",
+      "prix": "1959,99",
+      "carte graphique": "Nvidia GeForce GTX 1070"
+    },
+    {
+      "name": "MacBook Air Retina",
+      "marque": "Apple",
+      "processeur": "Intel core I5",
+      "ram": "8",
+      "stockage": "128Go",
+      "taille_ecran": "13,3",
+      "poids": "1350",
+      "prix": "1349,99",
+      "carte graphique": "Intel UHD Graphics 617"
+    },
+    {
+      "name": "MacBook Pro Retina Touch Bar",
+      "marque": "Apple",
+      "processeur": "Intel core I7",
+      "ram": "16",
+      "stockage": "512Go",
+      "taille_ecran": "15,4",
+      "poids": "1350",
+      "prix": "2799,00",
+      "carte graphique": "AMD Radeon Pro 560X -Intel UHD"
+    },
+    {
+      "name": "GP63 Leopard 8RE-031XFR",
+      "marque": "MSI",
+      "processeur": "Intel core I7",
+      "ram": "8",
+      "stockage": "256",
+      "taille_ecran": "15,6",
+      "poids": "1760",
+      "prix": "1399,94",
+      "carte graphique": "Nvidia GeForce GTX 1060"
+    },
+    {
+      "name": "Dell XPS 13-9370 FHD",
+      "marque": "Dell",
+      "processeur": "Intel core I7",
+      "ram": "16",
+      "stockage": "512Go",
+      "taille_ecran": "13,3",
+      "poids": "1370",
+      "prix": "1444,84",
+      "carte graphique": "Intel UHD Graphics"
+    },
+    {
+      "name": "Gamer Asus",
+      "marque": "Asus",
+      "processeur": "Intel core I5",
+      "ram": "8",
+      "stockage": "1To",
+      "taille_ecran": "15,6",
+      "poids": "2360",
+      "prix": "999,99",
+      "carte graphique": "Nvidia GeForce GTX 1060"
+    },
+    {
+      "name": "ROG Strix Scar II GL704",
+      "marque": "Asus",
+      "processeur": "Intel core I7",
+      "ram": "16",
+      "stockage": "256Go",
+      "taille_ecran": "17,3",
+      "poids": "1360",
+      "prix": "1399",
+      "carte graphique": "Nvidia GeForce GTX 1060"
+    },
+    {
+      "name": "ROG Strix Scar II GL704",
+      "marque": "Asus",
+      "processeur": "Intel core I7",
+      "ram": "16",
+      "stockage": "256Go",
+      "taille_ecran": "17,3",
+      "poids": "1360",
+      "prix": "1399",
+      "carte graphique": "Nvidia GeForce GTX 1060"
+    },
+    {
+      "name": "MacBook Pro",
+      "marque": "Apple",
+      "processeur": "Intel core I5",
+      "ram": "4",
+      "stockage": "128Go",
+      "taille_ecran": "13,3",
+      "poids": "1270",
+      "prix": "1299,99",
+      "carte graphique": "Intel iris Plus Graphics 640"
+    },
+    {
+      "name": "MacBook Air",
+      "marque": "Apple",
+      "processeur": "Intel core I5",
+      "ram": "8",
+      "stockage": "128Go",
+      "taille_ecran": "13,3",
+      "poids": "1350",
+      "prix": "1169",
+      "carte graphique": "Intel iris Plus Graphics 640"
+    },
+    {
+      "name": "MacBook Pro",
+      "marque": "Apple",
+      "processeur": "Intel core I5",
+      "ram": "8Go",
+      "stockage": "256Go",
+      "taille_ecran": "13,3",
+      "poids": "1350",
+      "prix": "1749,99",
+      "carte graphique": "Intel Iris Plus Graphics 655"
+    },
+    {
+      "name": "Gamer MSI GP73",
+      "marque": "MSI",
+      "processeur": "Intel core I7",
+      "ram": "8",
+      "stockage": "256Go",
+      "taille_ecran": "17,3",
+      "poids": "1360",
+      "prix": "1399,99",
+      "carte graphique": "Nvidia GeForce GTX 1070"
+    },
+    {
+      "name": "Ideapad 330",
+      "marque": "Lenovo",
+      "processeur": "Intel core I5",
+      "ram": "4",
+      "stockage": "126Go",
+      "taille_ecran": "15,6",
+      "poids": "1560",
+      "prix": "379,99",
+      "carte graphique": "Nvidia GeForce GTX 1060"
+    },
+    {
+      "name": "E406MA",
+      "marque": "Asus",
+      "processeur": "Intel Celeron N4000",
+      "ram": "4",
+      "stockage": "64",
+      "taille_ecran": "14",
+      "poids": "1760",
+      "prix": "229,99",
+      "carte graphique": "Nvidia GeForce GTX 1060"
+    },
+    {
+      "name": "Aspire ES1-732",
+      "marque": "Acer",
+      "processeur": "Intel Celeron N3350",
+      "ram": "4Go",
+      "stockage": "1To",
+      "taille_ecran": "17,3",
+      "poids": "1760",
+      "prix": "334",
+      "carte graphique": "Intel HD Graphics 500"
+    }
   ],
-   "Telephone":[
-     {
-       "name": "iphoneX",
-       "marque": "apple",
-       "taille": "5.8",
-       "memoire": "32",
-       "prix": "700"
-     },
-     {
-       "name": "S5",
-       "marque": "samsung",
-       "taille": "5.1",
-       "memoire": "16",
-       "prix": "177.99"
-     },
-     {
-       "name": "S8",
-       "marque": "Leagoo",
-       "taille": "5.7",
-       "memoire": "32",
-       "prix": "136.99"
-     },
-     {
-       "name": "P20 Lite",
-       "marque": "Huawei",
-       "taille": "5.84",
-       "memoire": "64",
-       "prix": "244.99"
-     },
-     {
-       "name": "XZ Premium",
-       "marque": "Ony Xperia",
-       "taille": "5.5",
-       "memoire": "64",
-       "prix": "285.00"
-     },
-     {
-       "name": "Glaxy J3",
-       "marque": "Samsung",
-       "taille": "5",
-       "memoire": "16",
-       "prix": "133.49"
-     },
-     {
-       "name": "Y5 2018",
-       "marque": "Huwaei",
-       "taille": "5.45",
-       "memoire": "16",
-       "prix": "119.00"
-     },
-     {
-       "name": "Mate lite",
-       "marque": "Huawei",
-       "taille": "5.9",
-       "memoire": "64",
-       "prix": "205.50"
-     },
-     {
-       "name": "Galaxy J5",
-       "marque": "samsung",
-       "taille": "5.2",
-       "memoire": "16",
-       "prix": "163.88"
-     },
-     {
-       "name": "iphone 8 Plus",
-       "marque": "apple",
-       "taille": "5.5",
-       "memoire": "256",
-       "prix": "926.97"
-     },
-     {
-       "name": "iphoneXr",
-       "marque": "apple",
-       "taille": "6.1",
-       "memoire": "64",
-       "prix": "819"
-     },
-     {
-       "name": "iphoneX",
-       "marque": "apple",
-       "taille": "5.8",
-       "memoire": "32",
-       "prix": "700"
-     },
-     {
-       "name": "iphoneXS Max",
-       "marque": "apple",
-       "taille": "6.5",
-       "memoire": "64",
-       "prix": "1133.90"
-     },
-     {
-       "name": "iphoneX",
-       "marque": "apple",
-       "taille": "5.8",
-       "memoire": "32",
-       "prix": "700"
-     },
-     {
-       "name": "iphone6s",
-       "marque": "apple",
-       "taille": "4.7",
-       "memoire": "32",
-       "prix": "337"
-     },
-     {
-       "name": "Xperia XA2",
-       "marque": "Sony",
-       "taille": "5.2",
-       "memoire": "32",
-       "prix": "2179.00"
-     },
-     {
-       "name": "Xperia XZ Premium",
-       "marque": "Sony",
-       "taille": "5.5",
-       "memoire": "64",
-       "prix": "285.00"
-     },
-     {
-       "name": "Xperia L1",
-       "marque": "Sony",
-       "taille": "5.5",
-       "memoire": "16",
-       "prix": "167.96"
-     }
-   ]
+  "Telephone": [
+    {
+      "name": "iphoneX",
+      "marque": "apple",
+      "taille": "5,8",
+      "memoire": "32",
+      "prix": "700"
+    },
+    {
+      "name": "S5",
+      "marque": "samsung",
+      "taille": "5,1",
+      "memoire": "16",
+      "prix": "177,99"
+    },
+    {
+      "name": "S8",
+      "marque": "Leagoo",
+      "taille": "5,7",
+      "memoire": "32",
+      "prix": "136,99"
+    },
+    {
+      "name": "P20 Lite",
+      "marque": "Huawei",
+      "taille": "5,84",
+      "memoire": "64",
+      "prix": "244,99"
+    },
+    {
+      "name": "XZ Premium",
+      "marque": "Ony Xperia",
+      "taille": "5,5",
+      "memoire": "64",
+      "prix": "285,00"
+    },
+    {
+      "name": "Glaxy J3",
+      "marque": "Samsung",
+      "taille": "5",
+      "memoire": "16",
+      "prix": "133,49"
+    },
+    {
+      "name": "Y5 2018",
+      "marque": "Huwaei",
+      "taille": "5,45",
+      "memoire": "16",
+      "prix": "119,00"
+    },
+    {
+      "name": "Mate lite",
+      "marque": "Huawei",
+      "taille": "5,9",
+      "memoire": "64",
+      "prix": "205,50"
+    },
+    {
+      "name": "Galaxy J5",
+      "marque": "samsung",
+      "taille": "5,2",
+      "memoire": "16",
+      "prix": "163,88"
+    },
+    {
+      "name": "iphone 8 Plus",
+      "marque": "apple",
+      "taille": "5,5",
+      "memoire": "256",
+      "prix": "926,97"
+    },
+    {
+      "name": "iphoneXr",
+      "marque": "apple",
+      "taille": "6,1",
+      "memoire": "64",
+      "prix": "819"
+    },
+    {
+      "name": "iphoneX",
+      "marque": "apple",
+      "taille": "5,8",
+      "memoire": "32",
+      "prix": "700"
+    },
+    {
+      "name": "iphoneXS Max",
+      "marque": "apple",
+      "taille": "6,5",
+      "memoire": "64",
+      "prix": "1133,90"
+    },
+    {
+      "name": "iphoneX",
+      "marque": "apple",
+      "taille": "5,8",
+      "memoire": "32",
+      "prix": "700"
+    },
+    {
+      "name": "iphone6s",
+      "marque": "apple",
+      "taille": "4,7",
+      "memoire": "32",
+      "prix": "337"
+    },
+    {
+      "name": "Xperia XA2",
+      "marque": "Sony",
+      "taille": "5,2",
+      "memoire": "32",
+      "prix": "179,00"
+    },
+    {
+      "name": "Xperia XZ Premium",
+      "marque": "Sony",
+      "taille": "5,5",
+      "memoire": "64",
+      "prix": "285,00"
+    },
+    {
+      "name": "Xperia L1",
+      "marque": "Sony",
+      "taille": "5,5",
+      "memoire": "16",
+      "prix": "167,96"
+    },
+    {
+      "name": "Mate 10 Lite",
+      "marque": "Huawei",
+      "taille": "5,9",
+      "memoire": "64",
+      "prix": "212,15"
+    },
+    {
+      "name": "Galaxy J3",
+      "marque": "Samsung",
+      "taille": "5",
+      "memoire": "16",
+      "prix": "133,00"
+    },
+    {
+      "name": "8X",
+      "marque": "Honor",
+      "taille": "6,5",
+      "memoire": "64",
+      "prix": "249,00"
+    },
+    {
+      "name": "Xperia XZ Premium",
+      "marque": "Sony",
+      "taille": "5,5",
+      "memoire": "64",
+      "prix": "336,60"
+    },
+    {
+      "name": "Galaxy J5 2017",
+      "marque": "Samsung",
+      "taille": "5,2",
+      "memoire": "16",
+      "prix": "152,80"
+    },
+    {
+      "name": "Xiaomi redmi Note 5",
+      "marque": "Xiaomi",
+      "taille": "5,99",
+      "memoire": "32",
+      "prix": "209,90"
+    },
+    {
+      "name": "9 Lite ",
+      "marque": "Honor",
+      "taille": "5,65",
+      "memoire": "32",
+      "prix": "168,00"
+    },
+    {
+      "name": "View2",
+      "marque": "Wiko",
+      "taille": "6",
+      "memoire": "32",
+      "prix": "179,00"
+    },
+    {
+      "name": "UMIDIGI Z2 Pro",
+      "marque": "UMIDIGI",
+      "taille": "6,2",
+      "memoire": "128",
+      "prix": "299,99"
+    },
+    {
+      "name": "Galaxy A8",
+      "marque": "Samsung",
+      "taille": "5,",
+      "memoire": "32",
+      "prix": "309,00"
+    },
+    {
+      "name": "A6",
+      "marque": "Samsung",
+      "taille": "5,6",
+      "memoire": "32",
+      "prix": "219,90"
+    },
+    {
+      "name": "S9",
+      "marque": "Samsung",
+      "taille": "5,8",
+      "memoire": "64",
+      "prix": "509,00"
+    },
+    {
+      "name": "A7",
+      "marque": "Blackview",
+      "taille": "5",
+      "memoire": "8",
+      "prix": "59,99"
+    },
+    {
+      "name": "C12 Pro",
+      "marque": "Oukitel",
+      "taille": "6,18",
+      "memoire": "16",
+      "prix": "99,99"
+    },
+    {
+      "name": "Galaxy A5",
+      "marque": "Samsung",
+      "taille": "5,2",
+      "memoire": "32",
+      "prix": "250,00"
+    },
+    {
+      "name": "S8 Pro",
+      "marque": "Ulefone",
+      "taille": "5,3",
+      "memoire": "32",
+      "prix": "89,99"
+    },
+    {
+      "name": "Redmi Note 5",
+      "marque": "Xiomi",
+      "taille": "5,99",
+      "memoire": "32",
+      "prix": "209,90"
+    },
+    {
+      "name": "iPhone 6s",
+      "marque": "Apple",
+      "taille": "4,7",
+      "memoire": "64",
+      "prix": "295,00"
+    },
+    {
+      "name": "iPhone XR",
+      "marque": "Apple",
+      "taille": "6,1",
+      "memoire": "64",
+      "prix": "827,00"
+    },
+    {
+      "name": "Iphone 8",
+      "marque": "Apple",
+      "taille": "4,7",
+      "memoire": "256",
+      "prix": "849,00"
+    },
+    {
+      "name": "Galaxy S8",
+      "marque": "Samsung",
+      "taille": "5,8",
+      "memoire": "64",
+      "prix": "442,99"
+    },
+    {
+      "name": "Iphone6",
+      "marque": "Apple",
+      "taille": "4,7",
+      "memoire": "32",
+      "prix": "180,00"
+    },
+    {
+      "name": "Wiko Jerry3",
+      "marque": "Wiko",
+      "taille": "5,7",
+      "memoire": "32",
+      "prix": "79,00"
+    },
+    {
+      "name": "Wiko View2",
+      "marque": "Wiko",
+      "taille": "6",
+      "memoire": "32",
+      "prix": "179,00"
+    },
+    {
+      "name": "Y5 2018",
+      "marque": "Huawei",
+      "taille": "5,45",
+      "memoire": "16",
+      "prix": "109,99"
+    },
+    {
+      "name": "Mate 10 lite",
+      "marque": "Huawei",
+      "taille": "5,9",
+      "memoire": "64",
+      "prix": "212,15"
+    },
+    {
+      "name": "4G Telephone 2018 ",
+      "marque": "V mobile",
+      "taille": "5,0",
+      "memoire": "16",
+      "prix": "49,99"
+    },
+    {
+      "name": "Xperia XZ2",
+      "marque": "Sony",
+      "taille": "5,7",
+      "memoire": "64",
+      "prix": "439,99"
+    },
+    {
+      "name": "Xperia XZ2",
+      "marque": "Sony",
+      "taille": "5",
+      "memoire": "64",
+      "prix": "519,99"
+    },
+    {
+      "name": "P8 Lite",
+      "marque": "Huawei",
+      "taille": "5,2",
+      "memoire": "16",
+      "prix": "160,00"
+    },
+    {
+      "name": "Galaxy J3",
+      "marque": "Samsung",
+      "taille": "5",
+      "memoire": "16",
+      "prix": "134,10"
+    },
+    {
+      "name": "S8",
+      "marque": "Leagoo",
+      "taille": "5,7",
+      "memoire": "32",
+      "prix": "136,99"
+    },
+    {
+      "name": "Galaxy J7",
+      "marque": "Samsung",
+      "taille": "5,2",
+      "memoire": "16",
+      "prix": "159,80"
+    },
+    {
+      "name": "Huawei P20 lite",
+      "marque": "Huawei",
+      "taille": "5,84",
+      "memoire": "64Go",
+      "prix": "248,00"
+    }
+  ]
 }

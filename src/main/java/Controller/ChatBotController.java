@@ -10,6 +10,5 @@ public class ChatBotController {
         System.out.println("2 : Cellphone");
         System.out.println("3 : Earphone");*/
         Tree arbre = new Tree();
-
     }
 }

@@ -73,7 +73,7 @@ public class Tree {
             for (Object product : productList) {
                 if (product instanceof JSONObject) {
                     Item nouveau = parseProductObject((JSONObject) product, type);
-                    if (nouveau != null) itemStorage.add(nouveau);
+                    if (nouveau != null && !itemStorage.contains(nouveau)) itemStorage.add(nouveau);
                 }
             }
         } catch (IOException | org.json.simple.parser.ParseException | JSONException e) {
@@ -84,28 +84,34 @@ public class Tree {
 
     private Item parseProductObject(JSONObject productObject, String type) throws JSONException {
         Item item = null;
-        String name = (String) productObject.get("name");
-        String brand = productObject.get("marque").toString();
-        double price = Double.parseDouble(productObject.get("prix").toString());
-        double size;
-        switch(type){
-            case "Ordinateur":
-                //String OS = productObject.get("").toString();
-                int ram = Integer.parseInt(productObject.get("ram").toString());
-                String capacityO = productObject.get("stockage").toString();
-                size = Double.parseDouble(productObject.get("taille_ecran").toString());
-                int weigth = Integer.parseInt(productObject.get("poids").toString());
-                String processor = productObject.get("processeur").toString();
-                String GPU = productObject.get("carte graphique").toString();
-                item = new Computer(name, brand, price, ram, capacityO, size, weigth, processor, GPU);
-                break;
-            case "Telephone":
-                size = Double.parseDouble(productObject.get("taille").toString());
-                int capacity = Integer.parseInt(productObject.get("memoire").toString());
-                item = new Cellphone(name, brand, price, size, capacity);
-                break;
-            default:
-                System.out.println("Le type de l'item : "+ name + " est introuvable: l'item n'a pa été ajouté!");
+        try {
+
+            String name = (String) productObject.get("name");
+            String brand = productObject.get("marque").toString();
+            double price = Double.parseDouble(productObject.get("prix").toString().replace(',', '.'));
+            double size;
+            switch (type) {
+                case "Ordinateur":
+                    //String OS = productObject.get("").toString();
+                    int ram = Integer.parseInt(productObject.get("ram").toString().replaceAll("Go", ""));
+                    String capacityO = productObject.get("stockage").toString();
+                    size = Double.parseDouble(productObject.get("taille_ecran").toString().replace(',', '.'));
+                    int weigth = Integer.parseInt(productObject.get("poids").toString());
+                    String processor = productObject.get("processeur").toString();
+                    String GPU = productObject.get("carte graphique").toString();
+                    item = new Computer(name, brand, price, ram, capacityO, size, weigth, processor, GPU);
+                    break;
+                case "Telephone":
+                    size = Double.parseDouble(productObject.get("taille").toString().replace(',', '.'));
+                    int capacity = Integer.parseInt(productObject.get("memoire").toString().replaceAll("Go", ""));
+                    item = new Cellphone(name, brand, price, size, capacity);
+                    break;
+                default:
+                    System.out.println("Le type de l'item : " + name + " est introuvable: l'item n'a pa été ajouté!");
+            }
+        }
+        catch (Exception e){
+            System.out.println("L'element n'a pas été rajouté");
         }
         return item;
     }
