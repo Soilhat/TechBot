@@ -19,4 +19,8 @@ public class Computer extends Item{
         this.GPU = GPU;
     }
 
+    @Override
+    public String toString() {
+        return super.toString() + /*", OS : " + OS + */", RAM : " + RAM + "Go, capacity : " + capacity + ", size : " + size + ", processor : " + processor + ", GPU : " + GPU;
+    }
 }

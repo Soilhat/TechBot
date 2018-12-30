@@ -17,7 +17,7 @@ public abstract class Item {
 
     @Override
     public String toString() {
-        return this.getClass().getSimpleName() + " : " + name;
+        return this.getClass().getSimpleName() + " : " + name + ", brand :" + brand;
     }
 
     @Override

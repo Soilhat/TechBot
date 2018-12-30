@@ -7,9 +7,7 @@ import org.json.simple.parser.JSONParser;
 
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Objects;
+import java.util.*;
 
 public class Tree {
     private Node computerRoot;
@@ -22,19 +20,34 @@ public class Tree {
     }
 
     private void ComputerConstruction() {
-        Node officeNode = new Node(OfficeComputers(computerRoot.getPossibilities()), "Office");
+        Node officeNode = new Node(OfficeComputers(computerRoot.getPossibilities()), "Office");;
         computerRoot.NewChild(officeNode);
         Node polyvalentNode = new Node(PolyvalentComputers(computerRoot.getPossibilities()), "Polyvalent");
-        computerRoot.NewChild(polyvalentNode);
+        System.out.println("\n"+ polyvalentNode.getPossibilities().size()+" Polyvalent Computers : \n");
+        //polyvalentNode.PrintNode();
+        //computerRoot.NewChild(polyvalentNode);
+
         Node gamerNode = new Node(GamerComputers(computerRoot.getPossibilities()), "Gamer");
-        computerRoot.NewChild(gamerNode);
+        System.out.println("\n"+gamerNode.getPossibilities().size()+" Gamer Computers : \n");
+        //gamerNode.PrintNode();
+        //computerRoot.NewChild(gamerNode);
+    }
+
+    private Map<String, List<Item>> CapacitySplit(List<Item> tab) {
+        Map<String, List<Item>> retour = new HashMap<>();
+        for(Item item : tab){
+            Computer computer = (Computer) item;
+            retour.putIfAbsent(computer.capacity, new ArrayList<>());
+            retour.get(computer.capacity).add(computer);
+        }
+        return retour;
     }
 
     private List<Item> GamerComputers(List<Item> tab){
         List<Item> retour = new ArrayList<>();
         for(Item computer : tab){
             Computer comp = (Computer) computer;
-            if(comp.processor.contains("i5") || comp.processor.contains("i7"))
+            if(comp.processor.contains("I5") || comp.processor.contains("I7"))
                 if(comp.RAM  >= 8)
                     if(comp.GPU.contains("GeForce GTX"))
                         retour.add(computer);
@@ -46,8 +59,8 @@ public class Tree {
         List<Item> retour = new ArrayList<>();
         for(Item computer : tab){
             Computer comp = (Computer) computer;
-            if(comp.processor.contains("i5") || comp.processor.contains("i7"))
-                if(comp.RAM == 4 || comp.RAM  == 8)
+            if(comp.processor.contains("I5") || comp.processor.contains("I7"))
+                //if(comp.RAM == 4 || comp.RAM  == 8)
                     retour.add(computer);
         }
         return retour;
