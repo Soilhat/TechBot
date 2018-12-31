@@ -15,9 +15,9 @@ public class Tree {
 
     public Tree(){
         Node computerRoot = new Node(ReaderFileJson("data.json", "Ordinateur"));
-        computerRoot.PrintNode();
+        //computerRoot.PrintNode();
         Node cellphoneRoot = new Node(ReaderFileJson("data.json", "Telephone"));
-        cellphoneRoot.PrintNode();
+        //cellphoneRoot.PrintNode();
     }
 
     private List<Item> ReaderFileJson(String fileName, String type) {

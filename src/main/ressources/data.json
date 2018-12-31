@@ -77,19 +77,9 @@
         "prix": "319.99",
         "carte graphique": "Intel HD Graphics"
       },
+
       {
-        "name": "Asus Predator Helios 300 PH315-51-58KC NH.Q3HEF.001 15.6",
-        "marque": "Acer",
-        "processeur": "Intel core I5",
-        "ram": "8",
-        "stockage": "32Go",
-        "taille_ecran": "15.6",
-        "poids": "2700",
-        "prix": "999.99",
-        "carte graphique": "Nvidia GTX 1050 Ti"
-      },
-      {
-        "name": "Asus Predator Helios 300 PH315-51-58KC NH.Q3HEF.001 15.6",
+        "name": "Acer Predator Helios 300 PH315-51-58KC NH.Q3HEF.001 15.6",
         "marque": "Acer",
         "processeur": "Intel core I5",
         "ram": "8",

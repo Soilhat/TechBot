@@ -18,5 +18,16 @@ public class Computer extends Item{
         this.processor = processor;
         this.GPU = GPU;
     }
+    public String toString() {
+        return super.toString() + " Ram = " + RAM + " Capacite = " + capacity + " "+ size + " " + weight + " "+ processor + " "+ GPU;
+
+    }
+
+    public int getRAM(){
+        return RAM;
+    }
+    public String getCapacity(){
+        return capacity;
+    }
 
 }
